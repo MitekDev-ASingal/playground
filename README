@@ -1,0 +1,7 @@
+To use MiSnapSDK in Eclipse:
+
+1) Import into your workspace as a library project (See 
+    http://developer.android.com/tools/projects/projects-eclipse.html#ReferencingLibraryProject)
+2) Create your application (YourApp) in your workspace
+3) In YourApp properties, add the library you imported
+4) Code the call to start the library, and onActivityResult to receive the returned image, per the SDK Programmer's Guide
